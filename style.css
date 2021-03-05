@@ -51,7 +51,7 @@ header {
 
 .hero {
   width: 100%;
-  height: 70%;
+  height: 60%;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -74,7 +74,6 @@ header {
 .text h1 {
   color: var(--black);
   font-size: 3rem;
-  margin-top: 6rem;
   font-weight: 800;
   padding: 2rem;
 }
@@ -100,6 +99,7 @@ header {
 }
 .about {
   display: flex;
+  height:35%;
 }
 .about img {
   width: 30%;
@@ -132,8 +132,8 @@ header {
   justify-content: center;
 }
 .arrows img {
-  width: 72px;
-  height: 72px;
+  width: 75px;
+  height: 70px;
   font-size: 2rem;
   padding: 2rem 2.5rem;
   cursor: pointer;
@@ -142,6 +142,12 @@ header {
 .attribution {
   font-size: 11px;
   text-align: center;
+  width:100%;
+  height:5%;
+  
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
